@@ -1,0 +1,21 @@
+1. Operation Poet Extraction
+
+	Problem: I would really like a list of popular poets. 100 should do.
+
+	a) Go to http://100.best-poems.net/top-100-best-poems.html
+	b) Copy all the poem, poet information into a new file in Sublime
+	c) Edit the file to only contain poet names, one on each line. Describe the insight and shortcuts you used to achieve this
+
+	Bonus: How could you further edit the data to be an array of strings? (such as: ["Robert Frost", "William Blake", ...])
+
+
+2. Finding That Special Plugin
+
+	Problem: All these numbers your boss just gave you? They actually need to be 1-indexed, not 0-indexed. Have fun counting.
+
+	7 8 17 3 2 14 6 11 15 10 13 4 9 12 0 5 1 16 19 18
+
+	a) Do some research. What operation do we need to do? Can Google help us? (Google-fu should lead us here: https://gist.github.com/dtao/2788978)
+	b) That plugin is nice and all, but it's simple to write our own. Install the IncrementCommand plugin.
+	c) Add away!
+
