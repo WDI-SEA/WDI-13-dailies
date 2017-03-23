@@ -2,8 +2,8 @@
 
 1. Describe the roles that HTML and CSS play for a web page
 2. Identify the components of an HTML element and an HTML document
-3. Describe the elements that display content and the elements that structure content
-4. Utilize HTML validators to write correct HTML documents
+3. Utilize HTML validators to write correct HTML documents
+4. Describe some common elements and their use cases
 5. Design a HTML document based off a mockup, with a structure that maintains the semantics of the information  
 
 ## Sublime plugins to install
@@ -135,7 +135,7 @@ A document's metadata is the information that describes the document itself. For
 
 Used to group together other elements. Defines a divison/section of a page.
 
-### `<a>` anchor tag
+### `<a>` anchor
 
 Used for linking to other pages, or other parts of the same page.
 
@@ -146,6 +146,14 @@ The `href` attribute defines the link to navigate to. You can also define a link
 > Create a table of contents for your bio. Provide a link for each section of your page
 
 ### `<p>` paragraph
+
+### `<img>` image
+
+`<img src="smiley.gif" alt="Smiley face" height="42" width="42">`
+
+Image tag attributes include: src (link to the image to display), alt (text to display when hovering), and height, width (which may be ommitted).
+
+> Add an image to your bio
 
 ### `<ul>`, `<ol>`, `<li>` lists
 
