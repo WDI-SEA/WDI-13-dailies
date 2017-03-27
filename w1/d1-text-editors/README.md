@@ -312,14 +312,6 @@ Your mission is clear. Find a partner, and tackle the problems listed in exercis
 - Recap topic(s) covered in today's lesson.
 - Cover homework and/or upcoming tasks.
 
-***
-
-### BEFORE NEXT CLASS
-|   |   |
-|---|---|
-| **HOMEWORK** | Example Assignment [#](Instructions)  |
-| **UPCOMING PROJECTS**  | Project Assignment: Title [#](Instructions)  |
-
 ### ADDITIONAL RESOURCES
 - Exercises
 	- [Sublime Practice](https://www.shortcutfoo.com/app/dojos/sublime-text-2-mac)
