@@ -1,0 +1,17 @@
+1. Git Books HW Page
+
+2. Go To The Repo for the HW, Fork it.
+
+3. On your version of the repo, copy Clone link
+
+4. `git clone <link>`
+
+5. do the assignment
+
+6. git add -A
+
+7. git commit -m "my meaningful message"
+
+8. git push
+
+9. "create new pull request" and fill out self-assessment
