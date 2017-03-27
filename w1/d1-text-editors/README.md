@@ -246,13 +246,13 @@ Try these tricks with the following snippet of text.
 > extraordinary pharmaceutical intellectuality counterbalancing indecipherability,
 > transcendentalizes intercommunications incomprehensibleness
 
-Holding OPTION and pressing the LEFT/RIGHT arrow keys moves the cursor to the next word.
+Holding <kbd>OPTION</kbd> and pressing the <kbd>LEFT</kbd>/<kbd>RIGHT</kbd> arrow keys moves the cursor to the next word.
 
-Holding CMD and pressing the LEFT/RIGHT arrow keys moves the cursor to the beginning/end of the line.
+Holding <kbd>CMD</kbd> and pressing the <kbd>LEFT</kbd>/<kbd>RIGHT</kbd> arrow keys moves the cursor to the beginning/end of the line.
 
-Holding SHIFT and pressing the LEFT/RIGHT arrow keys highlights text. Pressing the UP/DOWN arrows keys will increase the selection vertically.
+Holding <kbd>SHIFT</kbd> and pressing the <kbd>LEFT</kbd>/<kbd>RIGHT</kbd> arrow keys highlights text. Pressing the <kbd>UP</kbd>/<kbd>DOWN</kbd> arrows keys will increase the selection vertically.
 
-Holding SHIFT, in conjunction with OPTION (for words) or CMD (to the linebreak), will highlight sections of the text.
+Holding <kbd>SHIFT</kbd>, in conjunction with <kbd>OPTION</kbd> (for words) or CMD (to the linebreak), will highlight sections of the text.
 
 When you become more comfortable programming, these skills will help you edit programs much quicker. Next time you are reaching for the mouse or furiously jamming on the arrow keys, think about how you could better navigate with the keyboard.
 
@@ -260,37 +260,37 @@ When you become more comfortable programming, these skills will help you edit pr
 
 > banana orange banana orange banana yummyorange banana orange banana orange
 
-Hold down CMD and click somewhere to add a cursor. When you are ready, begin typing.
+Hold down <kbd>CMD</kbd> and click somewhere to add a cursor. When you are ready, begin typing.
 
-Hold down CMD and highlight with the mouse to create multiple cursor selections. You can highlight by dragging the mouse, or by double clicking a word.
+Hold down <kbd>CMD</kbd> and highlight with the mouse to create multiple cursor selections. You can highlight by dragging the mouse, or by double clicking a word.
 
-If you wish to replace many instances of a word, you can do so quickly by using CMD + D. This will select the next instance of the currently highlighted word.
+If you wish to replace many instances of a word, you can do so quickly by using <kbd>CMD</kbd> + <kbd>D</kbd>. This will select the next instance of the currently highlighted word.
 
-Try this: set your cursor to be in the middle of the word 'orange'. Hit CMD + D until the end. Why was the orange in 'yummyorange' skipped? Do the same, but this time highlight the first 'orange' and then hit CMD + D. Using CMD + D without a highlighted selection will always looks for a perfect word match.
+Try this: set your cursor to be in the middle of the word 'orange'. Hit <kbd>CMD</kbd> + <kbd>D</kbd> until the end. Why was the orange in 'yummyorange' skipped? Do the same, but this time highlight the first 'orange' and then hit <kbd>CMD</kbd> + <kbd>D</kbd>. Using <kbd>CMD</kbd> + <kbd>D</kbd> without a highlighted selection will always looks for a perfect word match.
 
 ## Shortcuts To Know
 
-CMD + P: Open a file. It's fuzzy!
+<kbd>CMD</kbd> + <kbd>P</kbd>: Open a file. It's fuzzy!
 
-CMD + SHIFT + P: Run a command.
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + P: Run a command.
 
-CMD + OPTION + #: Open panes horizontally
+<kbd>CMD</kbd> + <kbd>OPTION</kbd> + #: Open panes horizontally
 
-CMD + SHIFT + OPTION + #: Open panes vertically
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>OPTION</kbd> + <kbd>#</kbd>: Open panes vertically
 
-CMD + SHIFT + T: Open most recently closed file
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + T: Open most recently closed file
 
-CMD + W: Close current file
+<kbd>CMD</kbd> + <kbd>W</kbd>: Close current file
 
-CMD + F: find in file
+<kbd>CMD</kbd> + <kbd>F</kbd>: find in file
 
-CMD + OPTION + F: replace in file
+<kbd>CMD</kbd> + <kbd>OPTION</kbd> + F: replace in file
 
-CMD + SHIFT + F: find/replace in project
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + F: find/replace in project
 
-CMD + CTRL + UP/DOWN: Move a line up and down
+<kbd>CMD</kbd> + <kbd>CTRL</kbd> + <kbd>UP</kbd>/<kbd>DOWN</kbd>: Move a line up and down
 
-CMD + L: Select the entire line
+<kbd>CMD</kbd> + <kbd>L</kbd>: Select the entire line
 
 <a name="guided"></a>
 ## Guided Practice (10 min)
