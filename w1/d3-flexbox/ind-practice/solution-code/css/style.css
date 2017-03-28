@@ -1,0 +1,43 @@
+/*----------------------------------------------
+    H E L P E R S
+------------------------------------------------*/
+/* * {
+	box-sizing: border-box;
+} */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----------------------------------------------
+    S T Y L E S
+------------------------------------------------*/
+
+body {
+    font-family: sans-serif;
+    background: #969A97;
+    padding: 50px 100px;
+}
+
+section {
+	background-color: #D6D1CD;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+article {
+	background: #E5ECE9;
+	padding: 20px;
+    margin: 20px;
+
+}
+
+footer {
+	background-color: #C60F7B;
+    padding:20px;
+	clear: both;
+}

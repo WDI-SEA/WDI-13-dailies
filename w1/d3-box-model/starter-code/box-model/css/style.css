@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, serif;
+}
+
+header {
+  text-align: center;
+}
+
+nav a {
+  margin: 1em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.618em;
+}
+
+a {
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}

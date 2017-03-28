@@ -1,0 +1,75 @@
+/* ---------- GLOBAL STYLES ------------------------ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------- TYPOGRAPHY ------------------------ */
+h1 {
+	font-family: 'Merriweather', serif;
+}
+
+a {
+	color: #F85658;
+	text-decoration: none;
+	padding-bottom: 1px;
+	transition: all .3s ease-in-out;
+	border-bottom: 2px solid transparent;
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+a:hover {
+	border-bottom: 2px solid #F85658;
+}
+
+/* ---------- Comment List ------------------------ */
+ul {
+	max-width: 600px;
+	list-style: none;
+	margin: 2rem auto;
+	padding: 0;
+}
+
+li:first-of-type {
+	border-top: 2px solid #dfdfdf;
+}
+
+li {
+	text-align: left;
+	border-bottom: 2px solid #dfdfdf;
+	padding: 1rem .5rem;
+}
+
+/* ---------- Comment Form ------------------------ */
+textarea,
+button {
+	width: 100%;
+	max-width: 600px;
+	outline: none;
+	font-size: .8rem;
+	font-family: inherit;
+}
+
+textarea {
+	margin-bottom: .6rem;
+	min-height: 80px;
+	padding: 10px;
+}
+
+button {
+	border: 0;
+	padding: 10px;
+	text-transform: uppercase;
+	background-color: #3C4A53;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}

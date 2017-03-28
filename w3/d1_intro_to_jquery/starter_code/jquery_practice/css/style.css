@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+footer {
+	background-color: #dfdfdf;
+	padding: 20px;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 60px;
+  letter-spacing: .04em;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+span {
+  font-family: "Abril Fatface", cursive;
+  font-size: 60px;
+  line-height: 200px;
+  display: block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ecba09;
+  color: white;
+}
+
+li {
+  font-size: 20px;
+}
+
+.boxes {
+	margin-bottom: 80px;
+  display: inline-block;
+}
+
+
+.highlight {
+  color: #87586c;
+  border: 4px dotted #574759;
+  background-color: #bf6370;
+}
+
+.snazzy {
+  font-size: 50px;
+  color: #f78fa7;
+}

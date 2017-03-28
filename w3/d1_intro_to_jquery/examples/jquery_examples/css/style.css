@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+}
+
+img {
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+.special {
+	color: pink;
+}
+
+.sunshine {
+	background-color: yellow;
+}
+
+button {
+	border: 0;
+	background-color: pink;
+	padding: 8px 16px;
+	font-size: 14px;
+	margin-top: 30px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Display</title>
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Display</h1>
+
+	<!-- ************ PART 1	**********************	 -->
+
+	<h2>Part 1: Inline vs. Block</h2>
+
+	<p>Block elements will always start on a new line. <a href="#">Inline elements</a> will always appear to continue on the same line as their neighbors.</p>
+
+	<p class="note">** Notice the anchor element sits inline with the rest of the text.</p>
+
+	<hr>
+
+
+	<!-- ************ PART 2	********************** -->
+
+	<h2>Part 2: Dimension - A key difference between inline and block</h2>
+
+	<p>An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements <strong>horizontally</strong> away, not vertically. It will ignore width and height.</p>
+
+	<hr>
+
+
+	<!-- ************ PART 3	********************** -->
+
+	<h2>Part 3: So what does the inline-block look like?</h2>
+
+	<p>An element set to <em>inline-block</em> is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). The difference is that you are able to set a width and height which will be respected.</p>
+
+	<!-- ************ PART 4	********************** -->
+
+	<h2>Part 4: Why is my text-align:center not working?</h2>
+
+	<p>Another property that behaves a little bit strangely with inline elements is the text-align property. For example, here's a <a href="">Link</a> within this paragraph. You can't really set a different alignment to the link than the rest of the paragraph. <strong>The text-align property only works on block elements.</strong></p>
+
+	<nav>
+		<a href="">Link outside of paragraph</a>
+		<a href="">Link outside of paragraph</a>
+		<a href="">Link outside of paragraph</a>		
+	</nav>
+
+
+
+
+</body>
+</html>

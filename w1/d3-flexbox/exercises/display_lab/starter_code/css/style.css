@@ -1,0 +1,54 @@
+/*----------------------------------------------
+    S T A R T E R   S T Y L E S
+------------------------------------------------*/
+ol li {
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-family: Georgia, serif;
+}
+
+ul {
+	padding-left: 0;
+}
+
+h1, h2, h3 {
+	background-color: yellow;
+	list-style: none;
+	border: 1px solid red;
+	padding: 10px;
+}
+
+/*---------------------------------------------------------------------
+    P L A C E   Y O U R   C S S   B E L O W   T H I S   C O M M E N T
+-----------------------------------------------------------------------*/
+
+/* 
+Prompt: YOU'LL NEED TO CHOOSE BETWEEN inline, inline-block, display or none FOR EACH STEP BELOW.
+REFER TO YOUR CHEAT SHEETS IF YOU CAN'T REMEMBER THE DIFFERENCE
+*/
+
+/*1. Update the display property of the h1, h2 and h3 so that they're all on the same line.
+We want to make sure that they still respect properties like padding, margin, width and height.
+*/
+
+
+
+/*2. Update the display property of the anchors in Part 2 so that each item is on its own line.*/
+
+
+
+
+/*3. Update the display property in Part 3 to hide the image of the cat.*/
+
+
+
+
+/*4. Align the strong tag in part 4 to the right.*/
+
+
+
+
+
+
+
+

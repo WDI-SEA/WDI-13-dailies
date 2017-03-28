@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+.box {
+  width: 150px;
+  height: 150px;
+}
+
+.sm-box {
+  background-color: #008866;
+  width: 50px;
+  height: 50px;
+}
+
+#box1 {
+  background-color: #E16F20;
+}
+
+#box2 {
+  background-color: #FFC84E;
+
+}
+
+#box3 {
+  background-color: #00465D;
+}
+
+#little {
+
+}

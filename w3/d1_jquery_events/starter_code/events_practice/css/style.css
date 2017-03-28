@@ -1,0 +1,107 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+ box-sizing: border-box; /* IE */
+}
+
+body {
+  text-align: center;
+  height: 4000px;
+  padding: 30px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #EC4945;
+  border-radius: 50%;
+}
+
+button {
+  border: none;
+  background-color: #6AF5E3;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ul {
+  margin: 50px 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+input {
+  border: 2px solid #dfdfdf;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.correct {
+  border: 2px solid #00E364;
+}
+
+
+/*This probably looks foreign now, but we'll get there! Just a taste of what's to come.*/
+@-webkit-keyframes party-time {
+  0%   { background-color: #EC4945; }
+  100% { background-color: #FBDC3C; }
+}
+@keyframes party-time {
+  0%   { background-color: #EC4945; }
+  100% { background-color: #FBDC3C; }
+}
+
+
+.party {
+ /*This probably looks foreign now, but we'll get there! Just a taste of what's to come.*/
+ -webkit-animation: party-time 300ms infinite;
+ animation: party-time 300ms infinite; /* IE 10+, Fx 29+ */
+}
+
+.circle-two {
+ background-color: #FBDC3C;
+ display: none;
+ 
+}
+
+
+.square {
+  border-radius: 5px;
+  background-color: #FFA7C0;
+  display: block;
+  margin: 40px auto;
+  /* Here this transition will make sure that any properties that are changed animate. */
+  transition: all .3s ease-in-out
+}
+
+/* Step 1 for SUPER BONUS: Add a class .highlight and add the following styles:
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #FF3803;
+  width: 400px;
+  height: 400px;
+*/
+
+
+

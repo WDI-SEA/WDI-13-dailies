@@ -1,0 +1,343 @@
+/* Global
+   ================================================================ */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-size: 56px;
+  margin: 10px 0;
+  font-weight: 500;
+  color: #C5B358;
+}
+
+
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+.center-content {
+  margin: 0 auto;
+  max-width: 500px;
+  position: relative;
+  transform: translateY(-50%);
+  top: 40%;
+}
+
+.col-half {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+
+.col-half:last-of-type {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+
+section {
+  border-bottom: 1px solid #E5E5E5;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+
+/* Header
+   ================================================================ */
+header {
+  height: 100vh;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-family: 'Droid Serif', serif;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+hr {
+  margin: 0 0 20px;
+  border: 0;
+  border-bottom: 1px solid #C5B358;
+}
+
+
+
+/* About
+   ================================================================ */
+.about article {
+  width: 75%;
+  float: left;
+  padding: 20px 0 20px 10%;
+}
+
+aside {
+  width: 25%;
+  float: left;
+}
+
+aside div {
+  border: 1px solid #E5E5E5;
+  border-top: none;
+  padding: 35px 22px;
+}
+
+aside div:last-of-type {
+  border-bottom: none;
+}
+
+aside h2 {
+  margin: 0;
+  font-style: normal;
+  font-size: 20px;
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+aside p {
+  font-style: italic;
+  color: #888;
+}
+
+.about img {
+  width: 300px;
+  display: block;
+  margin: 40px auto;
+}
+
+.about h1 {
+  font-size: 21px;
+  margin: 20px 0;
+  font-weight: normal;
+}
+
+/* Gallery
+   ================================================================ */
+
+.gallery img {
+  max-width: 100%;
+}
+
+.gallery {
+  clear: both;
+  padding-right: 0;
+}
+
+.gallery article.col-half {
+  padding: 70px 40px 70px 0;
+}
+
+
+
+/* Banner
+   ================================================================ */
+
+.banner {
+  clear: both;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  padding: 180px 30%;
+  color: white;
+  text-align: center;
+  border-bottom: none;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.banner hr {
+  margin: 30px 0;
+}
+
+.banner h3 {
+  color: white;
+  width: 80px;
+  height: 80px;
+  line-height: 87px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+/* Footer
+   ================================================================ */
+footer {
+  clear: both;
+  background-color: #252422;
+  color: white;
+  padding: 20px;
+}
+
+footer a {
+  border-bottom: 1px solid white;
+}
+
+footer p {
+  width: 50%;
+  float: left;
+}
+
+footer p:last-of-type {
+  float: right;
+  text-align: right;
+}
+
+
+/* Navigation
+   ================================================================ */
+nav {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 10px 40px;
+}
+
+.active {
+  border: 1px solid #C5B358;
+  color: #C5B358;
+}
+
+
+/* Buttons
+   ================================================================ */
+button {
+  border: 2px solid white;
+  background-color: #252422;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin-top: 30px;
+  cursor: pointer;
+
+  transition: all .3s ease-in-out;
+}
+
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+  border: 2px solid #252422;
+  background-color: white;
+  color: #252422;
+}
+
+
+@media only screen and (max-width: 560px) {
+  .hamburger {
+    text-align: right;
+    display: block;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    background-color: #252422;
+  }
+
+  nav {
+    margin-top: 0;
+    background-color: #252422;
+    padding: 0 0 5px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  nav a,
+  .active {
+    display: block;
+    border-radius: 0;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #C5B358;
+  }
+
+  nav a:first-of-type {
+    border-top: 1px solid #C5B358;
+  }
+
+  nav a:last-of-type {
+    border-bottom: 0;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  footer p,
+  footer p:last-of-type {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  footer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .about img{
+    width: 100%;
+  }
+
+  .col-half{
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .col-half:last-of-type{
+    padding: 0;
+  }
+}
