@@ -233,6 +233,7 @@ Let's recreate this image using the HTML elements we have learned so far. Use th
 
 ## Reading Material
 
+* http://www.hongkiat.com/blog/html-5-semantics/
 * http://line25.com/articles/10-html-tag-crimes-you-really-shouldnt-commit
 * https://www.w3.org/wiki/HTML_structural_elements
 
