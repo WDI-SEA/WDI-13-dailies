@@ -226,3 +226,4 @@ Example:
 - [CSS Positioning Explained by Building an Ice Cream Sundae](https://medium.freecodecamp.com/css-positioning-explained-by-building-an-ice-cream-sundae-831cb884bfa9?gi=9bc90f76062b)
 - [A List Apart &mdash; CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 - [The Lowdown on Absolute vs. Relative Positioning](https://codemyviews.com/blog/the-lowdown-on-absolute-vs-relative-positioning)
+- [CSS position examples](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
