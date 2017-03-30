@@ -142,3 +142,22 @@ footer {
 /* ==========================================================================
    PART 2 -- Place your styles below this Comment!!!
 ========================================================================== */
+
+@media (min-width:501px) and (max-width: 800px) {
+	header p {
+		font-size: 16px;
+		background-color: pink;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	section {
+		width: 33.3%;
+	}
+}
+
+@media (max-width: 500px) {
+	section {
+		width: 50%;
+	}
+}
