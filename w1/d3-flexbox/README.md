@@ -463,6 +463,7 @@ Using the [provided HTML](ind-practice/starter-code), code the CSS for the mocku
 - [Flexbox Problem Solving Part 2](https://www.youtube.com/watch?v=_I58MXDnBEs&index=110&list=PLae1he6d1WImFXtLgPt7MDAx6k6iP59EW)
 
 ### Readings
+- [FlexBox Tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [MDN Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 - [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 - [Solved By Flexbox](http://philipwalton.github.io/solved-by-flexbox/)
