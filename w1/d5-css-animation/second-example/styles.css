@@ -1,0 +1,30 @@
+.bounce {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 5px ridge orange;
+    animation-name: bouncy-square;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bouncy-square {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(500px);
+    }
+    30% {
+        transform: translateY(400px);
+    }
+    45% {
+        transform: translateY(500px);
+    }
+    50% {
+        transform: translateY(450px);
+    }
+    100% {
+        transform: translateY(500px);
+    }
+}
