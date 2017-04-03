@@ -1,0 +1,8 @@
+.column {
+    /* Let's add another border so we can see our columns better */
+    position: relative;
+    border: 2px solid tomato;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+}
