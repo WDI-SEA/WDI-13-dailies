@@ -143,6 +143,9 @@ Whiteboarding can be deceptively difficult and only becomes easier with practice
 
 
 ### ADDITIONAL RESOURCES
+- Preparing for the interview
+  - [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_sim_14_6/160-2330665-3607932?_encoding=UTF8&pd_rd_i=0984782850&pd_rd_r=FY97FF9CXS07KGQ9NKZT&pd_rd_w=Un5ww&pd_rd_wg=QnpmQ&psc=1&refRID=FY97FF9CXS07KGQ9NKZT)
+  - [Interview Cake](https://www.interviewcake.com/)
 - Readings
   - Be prepared to ask questions about the company. Read about the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) for examples of what to ask the interviewer.
   - [Interview Tips for Jr. Devs](http://tosbourn.com/interview-tips-junior-developers/)
