@@ -1,0 +1,54 @@
+// Demonstate DOMContentLoaded
+
+var cuppa = document.getElementById('myLatte');
+
+var cuppa = document.getElementsByClassName('coffee');
+// will return the first element on the page with coffee
+var cuppa = document.querySelector('.coffee#myMocha');
+
+var allCups = document.querySelectorAll('.coffee');
+
+var allDivs = document.getElementsByTagName('div');
+
+console.log(cuppa);
+
+
+// Nab element, get & set text & attributes
+var expensive = document.getElementById('myMocha');
+expensive.innerText = 'I just bought a really expensive coffee';
+expensive.innerHTML = 'expensive';
+expensive.getAttribute('data-price');
+expensive.setAttribute('data-price', '8.20');
+
+
+// Create element from scratch, append to page
+var newCup = document.createElement('div');
+newCup.innerText = 'Cold-Brew Iced Coffee';
+newCup.classList.add('coffee');
+newCup.classList.remove('coffee');
+newCup.classList.add('coffee');
+newCup.id = 'coldBrew';
+document.body.appendChild(newCup);
+document.getElementById('primary').appendChild(newCup);
+
+var checkoutBtn = document.createElement('div');
+checkoutBtn.innerText = 'Checkout Cart';
+checkoutBtn.classList.add('button', 'disabled');
+checkoutBtn.className = 'one two three';
+checkoutBtn.classList.remove('disabled');
+document.body.appendChild(checkoutBtn);
+
+var anotherPage = document.createElement('a');
+anotherPage.setAttribute('href', 'http://google.com');
+anotherPage.innerText = 'Link to Google';
+document.body.appendChild(anotherPage);
+document.getElementsByTagName('a')[0].removeAttribute('href');
+
+// Create button, add event listener
+var checkoutBtn = document.getElementById('checkout');
+checkoutBtn.addEventListener('click', function() {
+  console.log('clicked');
+  var dataClicks = checkoutBtn.getAttribute('data-clicks');
+  checkoutBtn.setAttribute('data-clicks', dataClicks + 1);
+  checkoutBtn.innerText = dataClicks;
+})

@@ -4,10 +4,11 @@ var calculator = {
 	},
 	subtract: function (a, b) {
 		a - b;
-	},
-	multiply: function (a, b) [
+	}
+},
+	multiply: function (a, b) {
 		return a * b;
-	],
+	},
 	divide: function (a, b) {
 		return a / b;
 	},
@@ -23,7 +24,7 @@ var calculator = {
 var test1 = calculator.add(1, 2) === 3;
 var test2 = calculator.subtract(5, 4) === 1;
 var test3 = calculator.multiply(3, 7) === 21;
-var test4 = calculato.divide(10, 5) === 2;
+var test4 = calculator.divide(10, 5) === 2;
 var test5 = calculator.sum([1,3,5]) === 9;
 
 console.log(test1, test2, test3, test4, test5);

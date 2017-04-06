@@ -1,0 +1,12 @@
+.button {
+  width: 100px;
+  /*height: 50px;*/
+  color: white;
+  background-color: #1779ba;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.disabled {
+  background-color: #b6b4b6;
+}
