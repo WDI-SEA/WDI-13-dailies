@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
+  <title>Hello Front-End</title>
+</head>
+<body>
+
+  <div>
+    <div class='header'>
+    </div>
+    <div class='main'>
+      <h1 class="center">Temperature Convert</h1>
+      <form class="center">
+        <input type="text" id="tmp-input" name="temp" value="212">
+        <button id="convert-btn">Convert</button>
+        <button id="clear-btn">Clear</button>
+        <div class="radio-btn">
+          Get
+          <input type="radio" name="direction" id="radioF" checked="checked" value="Fahrenheit">F
+          <input type="radio" name="direction" id="radioC" value="Celcius">C
+        </div>
+
+        <div class='temp-box'>
+          <div class="center" id="convertedTemp"></div>
+        </div>
+      </form>
+
+    </div>
+
+    <div class=footer>
+    </div>
+
+  </div>
+
+
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

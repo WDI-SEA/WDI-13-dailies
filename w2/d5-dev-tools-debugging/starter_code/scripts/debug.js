@@ -1,3 +1,6 @@
+// Fix the bugs so that each function from 1-9 is called in order.
+// Example: func1(), funct2(), func3().
+
 var app = app || {};
 
 app.func9 = function () {
@@ -9,21 +12,21 @@ app.func8 = function() {
   console.log("inside function8");
   setTimeout(function()
   { 
-    app.func9();
+    app.func1();
   }, 
   0);
 }
 
 app.func7 = function(){
-  log("inside function7");
+  console.log("inside function7");
   setTimeout(function () { 
-    app.func8();
-  }, 1000);
+    app.func7();
+  }, '1000');
 }
 
 app.func5 = function(){
   console.log("inside function5");
-  app.func6());
+  "app.func6();"
 }
 
 app.func6 = function(){
@@ -35,13 +38,13 @@ app.func6 = function(){
 
 
 
-  app.func3 = function(){
-    console.log("inside function3");
-    app..func4();
-  }
+app.func3 = function(){
+  console.log("inside function3");
+  app.func4();
+}
 
 app.func4 = function(){ console.log("inside function4");
-  settimeout(function () { 
+setTimeout(function() { 
     app.func5();
   }, 1000);
 }
@@ -49,13 +52,13 @@ app.func4 = function(){ console.log("inside function4");
 
 
 app.func2 = function(){
-  console.log "inside function2");
+  console.log("inside function2");
   app.func3();
 }
 
-app.func1 = func () {
+app.func1 = function() {
   console.log("inside function1");
-  app.func2();
+  app.func4();
 }
 
 app.initialize = function () {
@@ -63,4 +66,6 @@ app.initialize = function () {
   app.func1();
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {app.initialize();});
+document.addEventListener("DOMContentLoaded", function() {
+  app.initialize();
+});
