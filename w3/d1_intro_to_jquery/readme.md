@@ -944,6 +944,10 @@ Don't feel like you have to sit down and memorize all of these methods! Memoriza
 - Readings
 	- [jQuery Documentation](https://api.jquery.com/)
 	- [Alternative jQuery Documentation](http://www.jqapi.com/)
+	
+- Learn jQuery
+	- https://learn.jquery.com/about-jquery/
+	- http://try.jquery.com/levels/1/challenges/1
 
 
 > Instructor Note: When possible, provide a brief description of Additional Resources, classifying whether they are for advanced or beginner students.  

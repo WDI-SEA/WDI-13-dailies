@@ -1,4 +1,4 @@
-// Demonstate DOMContentLoaded
+document.addEventListener("DOMContentLoaded", function() {});
 
 var cuppa = document.getElementById('myLatte');
 
@@ -9,9 +9,6 @@ var cuppa = document.querySelector('.coffee#myMocha');
 var allCups = document.querySelectorAll('.coffee');
 
 var allDivs = document.getElementsByTagName('div');
-
-console.log(cuppa);
-
 
 // Nab element, get & set text & attributes
 var expensive = document.getElementById('myMocha');

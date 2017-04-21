@@ -1,0 +1,52 @@
+.header {
+  margin-top: 80px;
+}
+
+.temp-box {
+  color: black;
+  font-weight: bold;
+  font-size: 48pt;
+  font-family: 'Molle', cursive;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 350px;
+  padding: 20px 0;
+  margin: 20px auto;
+}
+
+.radio-btn {
+  margin: 20px 0;
+}
+
+button {
+  margin-left: 2px;
+  min-width: 50px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #B6E7FF;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: #0093dd;
+}
+
+.center {
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 24pt;
+  font-family: 'Molle', cursive;
+}
+
+.main {
+  background-color: #54B7E8;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
