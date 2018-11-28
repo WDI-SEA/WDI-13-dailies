@@ -1,3 +1,5 @@
+// DIRECTIONS: Create a new code snippet on repl.it for each problem
+
 /*
 	The syntax for a for-loop looks like this:
 	for(var i = 0; i < x; i+= 1) {
