@@ -328,10 +328,10 @@ REST was created by Roy Fielding for his Ph.D. thesis.
   - The client can send specific HTTP requests to the server with a payload of the state needed to fulfill the request.
 
 
-  | Resource   | GET                  | PUSH                          | POST                           | DELETE                       |
-|------------|----------------------|-------------------------------|--------------------------------|------------------------------|
+| Resource   | GET                  | PUSH                          | POST                           | DELETE                |
+|------------|----------------------|-------------------------------|--------------------------------|-----------------------|
 | Collection | get a list of items* | replace the entire collection | add an item to the collection* | delete the entire collection |
-| Element    | get an item*         | replace an item*              | NA                             | delete the item*             |
+| Element    | get an item*         | replace an item*              | NA                             | delete the item*     |
 
 
 * The cells with an asterisk above represent the most common use cases.
@@ -341,6 +341,7 @@ REST was created by Roy Fielding for his Ph.D. thesis.
   (i.e., the client can send only the parts of the item that need to be updated, and the server merges those with the current item state).
 
 <a name="the-world-wide-web"></a>
+
 ## The World Wide Web (15 min)
 
 #### The World Wide Web vs. The Internet
